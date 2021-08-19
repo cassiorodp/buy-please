@@ -68,7 +68,7 @@ class ProdutoDetalhado extends Component {
     return (
       <section className="produto-detalhado">
         <BarraTopo
-          destino="/"
+          destino="/buy-please"
           mostrarCarrinho
           quantidadeTotal={ quantidadeTotal }
         />

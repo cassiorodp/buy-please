@@ -16,7 +16,7 @@ class BotãoCarrinho extends Component {
     return (
       <div className="botão-carrinho">
         <Link
-          to="/carrinho"
+          to="/buy-please/carrinho"
           className="link-carrinho"
           data-testid="shopping-cart-button"
         >

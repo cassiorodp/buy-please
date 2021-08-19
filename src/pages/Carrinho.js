@@ -42,7 +42,7 @@ class Carrinho extends React.Component {
         <button type="button" className="carrinho-botão-checkout btn btn-primary">
           <Link
             data-testid="checkout-products"
-            to="/checkout"
+            to="/buy-please/checkout"
           >
             Finalizar Compra
           </Link>
@@ -53,7 +53,7 @@ class Carrinho extends React.Component {
     return (
       <section className="carrinho">
         <BarraTopo
-          destino="/"
+          destino="/buy-please"
           mostrarCarrinho={ false }
         />
         { produtos[0] ? mostrarCarrinho() : carrinhoVazio() }

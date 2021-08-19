@@ -115,7 +115,7 @@ class Checkout extends Component {
 
     return (
       <div>
-        {redirecionar ? <Redirect to="/" /> : checkout()}
+        {redirecionar ? <Redirect to="/buy-please" /> : checkout()}
       </div>
     );
   }
