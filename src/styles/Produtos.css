@@ -84,10 +84,10 @@
   width: 100%;
 }
 
-/* .produto-botão-add:disabled {
+.produto-botão-add:disabled {
   cursor: default;
   opacity: 75%;
-} */
+}
 
 .produto-botão-add:not( :disabled ):hover {
   background-color: #1eab4b;
