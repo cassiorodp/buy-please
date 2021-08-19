@@ -40,7 +40,7 @@ class Produtos extends React.Component {
             Adicionar ao Carrinho
           </button>
           <Link
-            to={ `/buy-please/produto/${id}` }
+            to={ `/produto/${id}` }
             onClick={ () => guardaProdutoClicado(produto) }
             data-testid="product-detail-link"
           >

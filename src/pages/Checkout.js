@@ -78,7 +78,7 @@ class Checkout extends Component {
     const checkout = () => (
       <section className="checkout">
         <BarraTopo
-          destino="/buy-please/carrinho"
+          destino="/carrinho"
           mostrarCarrinho={ false }
         />
         <div className="checkout-produtos-selecionados">
@@ -115,7 +115,7 @@ class Checkout extends Component {
 
     return (
       <div>
-        {redirecionar ? <Redirect to="/buy-please" /> : checkout()}
+        {redirecionar ? <Redirect to="/" /> : checkout()}
       </div>
     );
   }

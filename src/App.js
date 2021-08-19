@@ -111,16 +111,16 @@ class App extends React.Component {
     const { carrinho } = this.state;
 
     return (
-      <Router>
+      <Router basename="/buy-please">
         <Cabeçalho />
         <Switch>
           <Route
             exact
-            path="/buy-please"
+            path="/"
             render={ () => this.renderHome() }
           />
           <Route
-            path="/buy-please/carrinho"
+            path="/carrinho"
             render={ () => (
               <Carrinho
                 gerenciarQuantidadeTotal={ this.gerenciarQuantidadeTotal }
@@ -130,7 +130,7 @@ class App extends React.Component {
             ) }
           />
           <Route
-            path="/buy-please/checkout"
+            path="/checkout"
             render={
               () => (<Checkout
                 esvaziarCarrinho={ this.esvaziarCarrinho }
@@ -139,7 +139,7 @@ class App extends React.Component {
             }
           />
           <Route
-            path="/buy-please/produto/:id"
+            path="/produto/:id"
             render={ () => this.renderProdutoDetalhado() }
           />
         </Switch>

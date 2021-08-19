@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-// import iconeDeletar from '../images/icone-deletar.svg';
+import iconeDeletar from '../images/icone-deletar.svg';
 // import iconeRemover from '../images/icone-remover.svg';
 // import iconeAdicionar from '../images/icone-adicionar.svg';
 
@@ -21,10 +21,8 @@ class Produto extends Component {
       gerenciarQuantidadeTotal,
       produto: { available_quantity: availableQuantity },
     } = this.props;
-    console.log(id);
-    console.log('chegou aqui');
+
     if (id === 'diminuir') {
-      console.log('diminuiu');
       this.setState(({ quantidade }) => ({
         quantidade: quantidade - 1,
       }), () => {
@@ -36,7 +34,6 @@ class Produto extends Component {
         }
       });
     } else if (id === 'aumentar') {
-      console.log('aumentou');
       this.setState(({ quantidade }) => ({
         quantidade: quantidade + 1,
       }), () => {
@@ -63,7 +60,7 @@ class Produto extends Component {
           className="carrinho-produto-botão-deletar"
           onClick={ () => removerItemDoCarrinho(id, quantidade) }
         >
-          .
+          <img src={ iconeDeletar } alt="Deletar produto" />
         </button>
         <img className="carrinho-produto-thumb" src={ thumbnail } alt={ title } />
         <span
@@ -78,20 +75,20 @@ class Produto extends Component {
             data-testid="product-decrease-quantity"
             type="button"
             id="diminuir"
-            className="carrinho-produto-botão-quantidade-diminuir"
+            className="carrinho-produto-botão-quantidade diminuir"
             onClick={ this.gerenciarQuantidade }
           >
-            .
+            {/* <img id="diminuir" src={ iconeRemover } alt="Remover item" /> */}
           </button>
           <span data-testid="shopping-cart-product-quantity">{ quantidade }</span>
           <button
             data-testid="product-increase-quantity"
             type="button"
             id="aumentar"
-            className="carrinho-produto-botão-quantidade-adicionar"
+            className="carrinho-produto-botão-quantidade aumentar"
             onClick={ this.gerenciarQuantidade }
           >
-            .
+            {/* <img id="aumentar" src={ iconeAdicionar } alt="Adicionar item" /> */}
           </button>
         </div>
       </li>

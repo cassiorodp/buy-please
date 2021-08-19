@@ -7,34 +7,26 @@
   width: 100%;
 }
 
-.carrinho-produto-botão-quantidade-adicionar {
+.carrinho-produto-botão-quantidade {
   align-items: center;
-  background: url(../images/icone-adicionar.svg) no-repeat center;
   background-color: whitesmoke;
-  background-size: 20px;
   border: 0;
   border-radius: 100%;
   display: flex;
-  font-size: 0;
   height: 35px;
   justify-content: center;
   padding: 5px;
   width: 35px;
 }
 
-.carrinho-produto-botão-quantidade-diminuir{
-  align-items: center;
-  background: url(../images/icone-remover.svg) no-repeat center;
+.carrinho-produto-botão-quantidade.aumentar {
+  background: url(../images/icone-adicionar.svg) no-repeat center;
   background-color: whitesmoke;
-  background-size: 20px;
-  border: 0;
-  border-radius: 100%;
-  display: flex;
-  font-size: 0;
-  height: 35px;
-  justify-content: center;
-  padding: 5px;
-  width: 35px;
+}
+
+.carrinho-produto-botão-quantidade.diminuir {
+  background: url(../images/icone-diminuir.svg) no-repeat center;
+  background-color: whitesmoke;
 }
 
 .carrinho-produto-botão-quantidade img {
@@ -42,11 +34,7 @@
   width: 20px;
 }
 
-.carrinho-produto-botão-quantidade-adicionar:hover {
-  box-shadow: 0 0 0 4px #0d6efd40;
-}
-
-.carrinho-produto-botão-quantidade-diminuir:hover {
+.carrinho-produto-botão-quantidade:hover {
   box-shadow: 0 0 0 4px #0d6efd40;
 }
 
@@ -55,13 +43,10 @@
 }
 
 .carrinho-produto-botão-deletar {
-  background: url(../images/icone-deletar.svg) no-repeat center;
-  background-size: 20px;
+  background: none;
   border: 0;
-  font-size: 0;
   height: 35px;
-  opacity: 100%;
-  padding: 20px;
+  opacity: 90%;
   width: 35px;
 }
 
@@ -72,12 +57,7 @@
 
 .carrinho-produto-botão-deletar img:hover {
   filter: brightness(90%);
-} 
-
-.carrinho-produto-botão-deletar i:hover {
-  color: white;
-  filter: brightness(50%);
-} 
+}
 
 .carrinho-produto-thumb {
   border: 0;
