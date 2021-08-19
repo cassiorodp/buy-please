@@ -39,14 +39,15 @@ class Carrinho extends React.Component {
               produto={ produto }
             />))}
         </ul>
-        <button type="button" className="carrinho-botão-checkout btn btn-primary">
+        <div className="carrinho-botão-checkout-container">
           <Link
             data-testid="checkout-products"
+            className="carrinho-botão-checkout btn btn-primary"
             to="/checkout"
           >
             Finalizar Compra
           </Link>
-        </button>
+        </div>
       </>
     );
 

@@ -26,9 +26,10 @@
   background-color: #00000010;
 }
 
-.carrinho-botão-checkout {
-  display: block;
-  margin: 30px auto 50px;
+.carrinho-botão-checkout-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .carrinho-botão-checkout a {

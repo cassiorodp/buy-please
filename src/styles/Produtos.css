@@ -86,7 +86,6 @@
 
 .produto-botão-add:disabled {
   cursor: default;
-  /* opacity: 0.3; */
 }
 
 .produto-botão-add:not( :disabled ):hover {
