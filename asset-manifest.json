@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/buy-please/static/css/main.f3163127.chunk.css",
+    "main.css": "/buy-please/static/css/main.a0cb917b.chunk.css",
     "main.js": "/buy-please/static/js/main.275cdb6e.chunk.js",
     "main.js.map": "/buy-please/static/js/main.275cdb6e.chunk.js.map",
     "runtime-main.js": "/buy-please/static/js/runtime-main.369ce355.js",
@@ -8,9 +8,9 @@
     "static/js/2.47ad031e.chunk.js": "/buy-please/static/js/2.47ad031e.chunk.js",
     "static/js/2.47ad031e.chunk.js.map": "/buy-please/static/js/2.47ad031e.chunk.js.map",
     "index.html": "/buy-please/index.html",
-    "precache-manifest.f9290f882d17f1e8a6224c9ab474d3aa.js": "/buy-please/precache-manifest.f9290f882d17f1e8a6224c9ab474d3aa.js",
+    "precache-manifest.723d8d4e2715a4bad440538c75fab789.js": "/buy-please/precache-manifest.723d8d4e2715a4bad440538c75fab789.js",
     "service-worker.js": "/buy-please/service-worker.js",
-    "static/css/main.f3163127.chunk.css.map": "/buy-please/static/css/main.f3163127.chunk.css.map",
+    "static/css/main.a0cb917b.chunk.css.map": "/buy-please/static/css/main.a0cb917b.chunk.css.map",
     "static/js/2.47ad031e.chunk.js.LICENSE.txt": "/buy-please/static/js/2.47ad031e.chunk.js.LICENSE.txt",
     "static/media/Produto.css": "/buy-please/static/media/icone-remover.8440f26b.svg",
     "static/media/icone-cabeçalho.svg": "/buy-please/static/media/icone-cabeçalho.542b3133.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.369ce355.js",
     "static/js/2.47ad031e.chunk.js",
-    "static/css/main.f3163127.chunk.css",
+    "static/css/main.a0cb917b.chunk.css",
     "static/js/main.275cdb6e.chunk.js"
   ]
 }
