@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc9233b773961cee5d8e958656501cb7",
+    "revision": "badb23ac259b3e6dd8c0fb8c72c73aac",
     "url": "/buy-please/index.html"
   },
   {
-    "revision": "1b10d5fa4a40af807f80",
-    "url": "/buy-please/static/css/main.c15c9c8d.chunk.css"
+    "revision": "f087ea174ece78c1fa7e",
+    "url": "/buy-please/static/css/main.b5f0f27c.chunk.css"
   },
   {
-    "revision": "1f198596575f19649fa3",
-    "url": "/buy-please/static/js/2.47ad031e.chunk.js"
+    "revision": "f18dbf44128df58d1474",
+    "url": "/buy-please/static/js/2.b01b6126.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/buy-please/static/js/2.47ad031e.chunk.js.LICENSE.txt"
+    "url": "/buy-please/static/js/2.b01b6126.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1b10d5fa4a40af807f80",
-    "url": "/buy-please/static/js/main.4c240f65.chunk.js"
+    "revision": "f087ea174ece78c1fa7e",
+    "url": "/buy-please/static/js/main.35f9a9a4.chunk.js"
   },
   {
     "revision": "5ce125dc602a34a13781",
@@ -32,8 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/buy-please/static/media/icone-cabeçalho.542b3133.svg"
   },
   {
-    "revision": "a3e4c2f7c32ce9a7ad6fa8d381b9d9cf",
-    "url": "/buy-please/static/media/icone-deletar.a3e4c2f7.svg"
+    "revision": "2253c48fe04285d73c8944e999553036",
+    "url": "/buy-please/static/media/icone-deletar.2253c48f.svg"
+  },
+  {
+    "revision": "8440f26beb969cae9c6e7f002ab8c151",
+    "url": "/buy-please/static/media/icone-diminuir.8440f26b.svg"
   },
   {
     "revision": "200ec5b0fc18cd1737c3a47e95f26ecd",
@@ -42,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ec6a7ea22cedbbf1f896de1d35fd3e70",
     "url": "/buy-please/static/media/icone-produtos.ec6a7ea2.svg"
-  },
-  {
-    "revision": "8440f26beb969cae9c6e7f002ab8c151",
-    "url": "/buy-please/static/media/icone-remover.8440f26b.svg"
   },
   {
     "revision": "a1af57c30a5973b6083b70b3566d7abb",
