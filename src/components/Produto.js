@@ -63,7 +63,7 @@ class Produto extends Component {
           className="carrinho-produto-botão-deletar"
           onClick={ () => removerItemDoCarrinho(id, quantidade) }
         >
-          <i className="fas fa-trash" />
+          .
         </button>
         <img className="carrinho-produto-thumb" src={ thumbnail } alt={ title } />
         <span
