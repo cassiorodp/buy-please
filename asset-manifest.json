@@ -1,29 +1,27 @@
 {
   "files": {
-    "main.css": "/buy-please/static/css/main.86df52fa.chunk.css",
-    "main.js": "/buy-please/static/js/main.492484fc.chunk.js",
-    "main.js.map": "/buy-please/static/js/main.492484fc.chunk.js.map",
+    "main.css": "/buy-please/static/css/main.f3163127.chunk.css",
+    "main.js": "/buy-please/static/js/main.275cdb6e.chunk.js",
+    "main.js.map": "/buy-please/static/js/main.275cdb6e.chunk.js.map",
     "runtime-main.js": "/buy-please/static/js/runtime-main.369ce355.js",
     "runtime-main.js.map": "/buy-please/static/js/runtime-main.369ce355.js.map",
-    "static/js/2.b04af1ce.chunk.js": "/buy-please/static/js/2.b04af1ce.chunk.js",
-    "static/js/2.b04af1ce.chunk.js.map": "/buy-please/static/js/2.b04af1ce.chunk.js.map",
+    "static/js/2.47ad031e.chunk.js": "/buy-please/static/js/2.47ad031e.chunk.js",
+    "static/js/2.47ad031e.chunk.js.map": "/buy-please/static/js/2.47ad031e.chunk.js.map",
     "index.html": "/buy-please/index.html",
-    "precache-manifest.a25a3b826d635735ed03c69c31116deb.js": "/buy-please/precache-manifest.a25a3b826d635735ed03c69c31116deb.js",
+    "precache-manifest.f9290f882d17f1e8a6224c9ab474d3aa.js": "/buy-please/precache-manifest.f9290f882d17f1e8a6224c9ab474d3aa.js",
     "service-worker.js": "/buy-please/service-worker.js",
-    "static/css/main.86df52fa.chunk.css.map": "/buy-please/static/css/main.86df52fa.chunk.css.map",
-    "static/js/2.b04af1ce.chunk.js.LICENSE.txt": "/buy-please/static/js/2.b04af1ce.chunk.js.LICENSE.txt",
-    "static/media/icone-adicionar.svg": "/buy-please/static/media/icone-adicionar.2a687ed9.svg",
+    "static/css/main.f3163127.chunk.css.map": "/buy-please/static/css/main.f3163127.chunk.css.map",
+    "static/js/2.47ad031e.chunk.js.LICENSE.txt": "/buy-please/static/js/2.47ad031e.chunk.js.LICENSE.txt",
+    "static/media/Produto.css": "/buy-please/static/media/icone-remover.8440f26b.svg",
     "static/media/icone-cabeçalho.svg": "/buy-please/static/media/icone-cabeçalho.542b3133.svg",
-    "static/media/icone-deletar.svg": "/buy-please/static/media/icone-deletar.a3e4c2f7.svg",
     "static/media/Home.css": "/buy-please/static/media/icone-pesquisa.200ec5b0.svg",
     "static/media/BotãoCarrinho.css": "/buy-please/static/media/icone-produtos.ec6a7ea2.svg",
-    "static/media/icone-remover.svg": "/buy-please/static/media/icone-remover.8440f26b.svg",
     "static/media/BotãoVoltar.css": "/buy-please/static/media/icone-voltar.a1af57c3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.369ce355.js",
-    "static/js/2.b04af1ce.chunk.js",
-    "static/css/main.86df52fa.chunk.css",
-    "static/js/main.492484fc.chunk.js"
+    "static/js/2.47ad031e.chunk.js",
+    "static/css/main.f3163127.chunk.css",
+    "static/js/main.275cdb6e.chunk.js"
   ]
 }
