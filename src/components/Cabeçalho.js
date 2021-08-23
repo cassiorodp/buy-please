@@ -9,7 +9,7 @@ class Cabeçalho extends Component {
     return (
       <header>
         <img className="logo-cabeçalho" src={ Logo } alt="Front-End Online Store" />
-        <h1 className="titulo-cabeçalho">Front-End Online Store</h1>
+        <h1 className="titulo-cabeçalho">Buy, Please</h1>
       </header>
     );
   }
