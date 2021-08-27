@@ -18,3 +18,4 @@ The project was develop by myself and:
  - https://github.com/DiegoVilela
  - https://github.com/edugrossi
  - https://github.com/crabominable
+ - https://github.com/pedrotrasfereti
