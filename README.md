@@ -19,3 +19,5 @@ The project was develop by myself and:
  - https://github.com/edugrossi
  - https://github.com/crabominable
  - https://github.com/pedrotrasfereti
+
+See our working app [here!](https://cassiorodp.github.io/buy-please/)
